@@ -26,7 +26,7 @@ const Hero = () => {
                         <button type="submit" className="btn btn-primary my-2 my-md-0 mx-0 mx-md-2">Get started</button>
                     </form>
                 </div>
-                <div className="right d-none d-md-block">
+                <div className="right d-none d-lg-block">
                     <img src={RightImg} alt={RightImg} className='img-fluid' />
                 </div>
             </div>
