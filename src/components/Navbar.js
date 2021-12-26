@@ -29,9 +29,9 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${sticky && 'sticky'} ${open && 'open'}`}>
             <div className="container-fluid py-2 d-xl-flex align-items-center">
-                <div className="navbar-logo">
+                <a href='/' className="navbar-logo">
                     <img src={Logo} alt="logo" className='logo' />
-                </div>
+                </a>
                 <ul className="main-nav d-none d-xl-flex">
                     <li onClick={handleToggle}>
                         <a href="/">Prices</a>
