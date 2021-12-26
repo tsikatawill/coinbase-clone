@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroMobile from '../images/hero-mobile.png'
 
 
 const Earn = () => {

@@ -22,7 +22,7 @@ const Hero = () => {
                         <p style={{ width: "600px", maxWidth: "100%" }}>Cryptobase is the easiest place to buy and sell cryptocurrency. Sign up and get started today.</p>
                     </div>
                     <form className="form d-md-flex my-3">
-                        <input className="" type="text" name="email" required id="email" placeholder="Email address" className="px-4" />
+                        <input type="text" name="email" required id="email" placeholder="Email address" className="px-4" />
                         <button type="submit" className="btn btn-primary my-2 my-md-0 mx-0 mx-md-2">Get started</button>
                     </form>
                 </div>
