@@ -5,12 +5,9 @@ import './Navbar.css'
 const Navbar = () => {
     const [sticky, setSticky] = React.useState(false)
     const [open, setOpen] = React.useState(false)
-
     const handleToggle = () => {
         setOpen(!open)
     }
-
-
     const handleScroll = () => {
         if (window.scrollY > 100) {
             setSticky(true)
@@ -20,11 +17,7 @@ const Navbar = () => {
         }
     }
 
-    // React.useEffect(handleScroll, [])
-
     window.addEventListener('scroll', handleScroll)
-
-
 
     return (
         <nav className={`navbar ${sticky && 'sticky'} ${open && 'open'}`}>

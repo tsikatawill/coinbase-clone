@@ -7,17 +7,19 @@ import Reason from './components/Reason';
 import GetStarted from './components/GetStarted';
 import Earn from './components/Earn';
 import Footer from './components/Footer';
+import Prices from './components/Prices';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
+      <Earn />
+      <Prices />
       <Portolio />
       <Reason />
       <CounterDisplay />
       <GetStarted />
-      <Earn />
       <Footer />
     </div>
   );
