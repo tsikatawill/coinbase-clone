@@ -125,7 +125,7 @@ const Footer = () => {
             <div className="container">
                 <section className="mb-4 text-center">
                     <p>Cryptobase | A coinbase clone, sorta</p>
-                    <p>Developed by <a href="https://www.github.com/tsikatawill">Willman</a> &copy; 2021</p>
+                    <p>Developed by <a href="https://github.com/tsikatawill">Willman</a> &copy; 2021</p>
                 </section>
             </div>
         </footer >
