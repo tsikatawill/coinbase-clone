@@ -24,7 +24,7 @@ const Reason = () => {
 }
 
 const Article = ({ img, title, text }) => {
-    return <article className="article col-md-4 text-center px-4 my-3 my-md-0">
+    return <article className="article col-md-4 text-center">
         <img src={img} alt={title} style={{ width: "70px" }} />
         <div className="text">
             <h3>{title}</h3>
